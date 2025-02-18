@@ -12,6 +12,7 @@
 /[Pp]roject[Ss]ettings/
 /[Pp]ackages/
 
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -37,6 +38,7 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
 
 # Gradle cache directory
 .gradle/
