@@ -1,0 +1,9 @@
+{
+  "name": "com.unity.avatye.pointhome.release",
+  "version": "1.0.0",
+  "unity": "2025.2",
+  "keywords": ["SDK", "Hybrid", "Unity"],
+  "author": {
+    "name": "Avatye"
+  }
+}
