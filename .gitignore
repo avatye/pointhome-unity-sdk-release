@@ -2,17 +2,22 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
+/Library
+/Temp
+/Obj
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 /[Pp]roject[Ss]ettings/
 /[Pp]ackages/
+/Packages
 /Assets
 /Packages/
+/Temp
+/Logs
+/Library
+
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
@@ -85,3 +90,29 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+# Unity UPM 캐시 무시
+/Packages/com.unity.package-manager-ui/.cache/
+
+# Unity 임시 빌드 파일 무시
+/[Bb]uild*/ 
+/[Bb]uilds/*
+
+# Unity에서 생성되는 로그 파일 무시
+*.log
+
+# 예상되는 패키지가 아닌 UPM 관련 파일 무시
+/[Pp]ackages/*/Editor/
+
+# Unity Cloud Build에서 생성된 파일 무시
+/.cloudbuild/
+
+# JetBrains Rider 관련 파일 무시
+.idea/
+
+# Visual Studio for Mac 관련 파일 무시
+.vscode/
+
+# Unity Package Manager 종속성 파일 무시
+/Packages/*/.npm/
